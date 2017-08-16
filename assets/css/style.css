@@ -1,0 +1,259 @@
+
+header {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #cccccc;
+  border-bottom-width: 2px;
+  float: left;
+  width: 100%;
+}
+
+.header-wrapper{
+  padding: 0 100px;
+  width: calc(100% - 200px);
+}
+
+.logo {
+background-color: #4aaaa5;
+padding: 25px;
+width: 250px;
+display: inline-block;
+}
+
+.logo-title {
+  color: white;
+}
+
+.nav {
+  position: relative;
+  clear: left;
+  float:right;
+  padding: 50px 100px 0 0;
+}
+
+
+h1 {
+  font-size: 36px;
+  font-family: "Georgia";
+  color: #4aaaa5;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "Georgia";
+  color: #4aaaa5;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Helvetica";
+  color: #777777;
+  line-height: 1.5;
+}
+
+hr {
+  background-color: #777777;
+  height: 1px;
+}
+
+.main-section {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  padding:30px;
+  margin: 50px;
+  width: 650px;
+  float: left;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  padding:40px;
+  margin: 50px;
+  width: 270px;
+float:left;
+}
+.sm-icons {
+  height:80px;
+  padding: 2px;
+}
+
+footer {
+  clear: left;
+  background-color: #666666;
+  padding:30px;
+  border-style: solid;
+  border-color: #4aaaa5;
+  border-top-width: 5px;
+}
+
+.footer-text {
+  color: white;
+  text-align: center;
+}
+
+.fnimage {
+  height: 150px;
+  float: left;
+  padding: 10px;
+}
+
+form {
+  font-size: 14px;
+  font-family: "Helvetica";
+  color: #777777;
+  line-height: 1.5;
+}
+
+input {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+}
+textarea {
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+button {
+  color: white;
+  font-size: 14px;
+  background-color: #4aaaa5;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+}
+
+.portfolio-boxes {
+  position:relative;
+  width: 230px;
+  height: 200px;
+    margin: 30px;
+display: inline-block;
+}
+
+.portfolio-images {
+  height: 200px;
+  width: 230px;
+  position: absolute;
+}
+
+.portfolio-names {
+  background-color: #4aaaa5;
+  text-align:center;
+  padding: 10px;
+  width: 210px;
+  position: absolute;
+  bottom: 20px;
+
+}
+
+/**Header Media Screens**/
+
+@media screen and (max-width: 768px) {
+
+  .header-wrapper {
+  padding: 0 30px;
+  width: calc(100% - 75px);
+  }
+
+.logo {
+  padding: 10px;
+  }
+
+  .nav {
+    display: inline-block;
+    padding: 30px 100px 0px 0;
+  }
+
+
+}
+
+@media screen and (max-width: 640px) {
+  
+  header {
+  clear: left;
+  }
+
+  .header-wrapper{
+  padding: 0;
+  width: 100%;
+  }
+
+  .logo {
+  width: 100%;
+  display: block;
+  text-align: center;
+
+  }
+
+.nav {
+  position: relative;
+  display: block;
+  float:none;
+  text-align: center;
+  padding: 0;
+}
+
+
+}
+
+/**Body Media Queries**/
+
+@media screen and (max-width: 980px) {
+.main-section {
+  width: 350px;
+  float: left;
+}
+
+.sidebar {
+  width: 220px;
+}
+
+.sm-icons {
+  height:60px;
+}
+.fnimage {
+float:none;
+display: block; 
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.main-section {
+width: 80%;
+  display: block;
+  margin: 20px;
+}
+.sidebar {
+    width: 80%;
+    margin: 20px;
+    display: block;
+}
+
+
+}
+
+@media screen and (max-width: 640px) {
+  
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
